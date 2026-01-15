@@ -1,7 +1,10 @@
 package ej05;
 
-import java.io.*;
-import java.net.*;
+import java.io.ByteArrayInputStream;
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
 
 public class ServidorUDPBoolean {
     public static void main(String[] args) {
